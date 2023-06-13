@@ -64,7 +64,7 @@ p {
 }
 
 .rounded-circle {
-    width: 100px;
+    max-width: 100px;
 }
 
 .icon, .port-btn {
@@ -83,10 +83,11 @@ p {
     align-self: center;
 }
 
-/* Testimonials */
+/* Portfolio */
 
-.test-span {
-    font-style: italic;
+.carousel-item {
+    max-width: 50%;
+    max-height: auto;
 }
 
 /* Cookie modal */
